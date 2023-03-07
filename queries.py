@@ -41,8 +41,10 @@ def spent_per_customer(db):
 
 
 def best_employee(db):
-    '''Implement the best_employee method to determine who’s the best employee! By “best employee”, we mean the one who sells the most.
-    We expect the function to return a tuple like: ('FirstName', 'LastName', 6000 (the sum of all purchase)). The order of the information is irrelevant'''
+    '''Implement the best_employee method to determine the best employee!
+    We expect the function to return a tuple like:
+    ('FirstName', 'LastName', 6000 (the sum of all purchase)).
+    The order of the information is irrelevant'''
 
     query = '''
         SELECT
